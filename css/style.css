@@ -317,6 +317,10 @@ legend {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
+  .row{
+    flex-wrap: wrap;
+  }
+ 
 }
 
 progress {
@@ -635,9 +639,8 @@ pre code {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  
+  justify-content: center; 
 }
 
 .no-gutters {
@@ -9984,4 +9987,10 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.pic{
+display: flex;
+justify-content: center;
+
+
 }
